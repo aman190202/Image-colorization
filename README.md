@@ -21,4 +21,10 @@ An autoencoder consists of 3 components:
 
 The COCO-2017 Dataset's validation directory is used over here in the model due to the system's limited storage capacity. We will be converting the given images into black & white to create the desired dataset. 
 
+## How to work :
 
+```
+sh datacreation.sh
+python data_manipulation.py
+
+```
